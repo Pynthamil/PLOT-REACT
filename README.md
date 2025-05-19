@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+\# Data Visualization Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based web application that allows users to upload CSV files and visualize the data through interactive charts with the ability to export visualizations as PNG images.
 
-## Available Scripts
+\## Features
 
-In the project directory, you can run:
+\- \*\*CSV File Upload\*\*: Upload any CSV file for visualization
 
-### `npm start`
+\- \*\*Interactive Charts\*\*: Choose between Bar and Scatter plot visualizations
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+\- \*\*Axis Selection\*\*: Select which columns to use for X and Y axes
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+\- \*\*PNG Export\*\*: Download your visualizations as high-quality PNG images
 
-### `npm test`
+\- \*\*Responsive Design\*\*: Works on desktop and mobile devices
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+\## Technologies Used
 
-### `npm run build`
+\- React.js
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+\- Chart.js
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+\- Papa Parse (for CSV parsing)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+\- FileSaver.js (for image downloads)
 
-### `npm run eject`
+\- Tailwind CSS (for styling)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+\## Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1\. Clone the repository:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+\`\`\`bash
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+git clone https://github.com/your-username/data-visualization-dashboard.git
 
-## Learn More
+\`\`\`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2\. Navigate to the project directory:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+\`\`\`bash
 
-### Code Splitting
+cd data-visualization-dashboard
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+\`\`\`
 
-### Analyzing the Bundle Size
+3\. Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+\`\`\`bash
 
-### Making a Progressive Web App
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+\`\`\`
 
-### Advanced Configuration
+4\. Start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+\`\`\`bash
 
-### Deployment
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+\`\`\`
 
-### `npm run build` fails to minify
+5\. Open \[http://localhost:3000\](http://localhost:3000) to view it in your browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+\## Usage
+
+1\. Click "Choose CSV File" to upload your dataset
+
+2\. Select which columns to use for X and Y axes from the dropdown menus
+
+3\. Toggle between Bar and Scatter chart types
+
+4\. Click "Export as PNG" to download your visualization
+
+\## Project Structure
+
+\`\`\`
+
+src/
+
+├── App.js # Main application component
+
+├── index.js # React entry point
+
+├── components/ # Reusable components
+
+├── assets/ # Static assets
+
+└── styles/ # CSS files
+
+\`\`\`
+
+\## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements.
+
+\## License
+
+This project is licensed under the MIT License - see the \[LICENSE\](LICENSE) file for details.
+
+\## Screenshots
+
+!\[App Screenshot\](./screenshot.png)
+
+\## Live Demo
+
+\[View Live Demo\](https://your-deployed-app-url.here)
