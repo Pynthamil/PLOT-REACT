@@ -75,11 +75,3 @@ src/
 ## Demo Video
 
 🎥 [▶ Watch Demo Video](https://drive.google.com/file/d/1lBJ5XA5iDGRLSUMs46IUTiT0tGRuSObA/view?usp=drive_link)
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any improvements.
-
-## License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
