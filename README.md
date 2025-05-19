@@ -23,13 +23,14 @@ A React-based web application that allows users to upload CSV files and visualiz
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/data-visualization-dashboard.git
+   git clone https://github.com/Pynthamil/PLOT-REACT.git
+
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd data-plots
+   cd PLOT-REACT
    ```
 
 3. Install dependencies:
