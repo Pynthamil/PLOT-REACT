@@ -66,14 +66,14 @@ src/
 
 ## Screenshots
 
-![Image 1](../assets/img1.png)
-![Image 2](./assets/img2.png)
-![Image 3](./assets/img3.png)
-![Image 4](./assets/img4.png)
+![Image 1](https://github.com/Pynthamil/PLOT-REACT/blob/1e10aaa63c9e82ce7b0df40fb89b993deaf84b8c/public/assets/img1.png)
+![Image 2](https://github.com/Pynthamil/PLOT-REACT/blob/1e10aaa63c9e82ce7b0df40fb89b993deaf84b8c/public/assets/img2.png)
+![Image 3](https://github.com/Pynthamil/PLOT-REACT/blob/1e10aaa63c9e82ce7b0df40fb89b993deaf84b8c/public/assets/img3.png)
+![Image 4](https://github.com/Pynthamil/PLOT-REACT/blob/1e10aaa63c9e82ce7b0df40fb89b993deaf84b8c/public/assets/img4.png)
 
 ## Demo Video
 
-🎥 [▶ Watch Demo Video](./assets/DEMO.mp4)
+🎥 [▶ Watch Demo Video](https://github.com/Pynthamil/PLOT-REACT/blob/1e10aaa63c9e82ce7b0df40fb89b993deaf84b8c/public/assets/DEMO.mp4)
 
 ## Contributing
 
