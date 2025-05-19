@@ -1,107 +1,84 @@
-\# Data Visualization Dashboard
+# Data Visualization Dashboard
 
-A React-based web application that allows users to upload CSV files and visualize the data through interactive charts with the ability to export visualizations as PNG images.
+A React-based web application that allows users to upload CSV files and visualize the data through interactive charts, with the ability to export visualizations as PNG images.
 
-\## Features
+## Features
 
-\- \*\*CSV File Upload\*\*: Upload any CSV file for visualization
+- **CSV File Upload**: Upload any CSV file for visualization
+- **Interactive Charts**: Choose between Bar and Scatter plot visualizations
+- **Axis Selection**: Select which columns to use for X and Y axes
+- **PNG Export**: Download your visualizations as high-quality PNG images
+- **Responsive Design**: Works on desktop and mobile devices
 
-\- \*\*Interactive Charts\*\*: Choose between Bar and Scatter plot visualizations
+## Technologies Used
 
-\- \*\*Axis Selection\*\*: Select which columns to use for X and Y axes
+- React.js
+- Chart.js
+- Papa Parse (for CSV parsing)
+- FileSaver.js (for image downloads)
+- Tailwind CSS (for styling)
 
-\- \*\*PNG Export\*\*: Download your visualizations as high-quality PNG images
+## Installation
 
-\- \*\*Responsive Design\*\*: Works on desktop and mobile devices
+1. Clone the repository:
 
-\## Technologies Used
+   ```bash
+   git clone https://github.com/your-username/data-visualization-dashboard.git
+   ```
 
-\- React.js
+2. Navigate to the project directory:
 
-\- Chart.js
+   ```bash
+   cd data-plots
+   ```
 
-\- Papa Parse (for CSV parsing)
+3. Install dependencies:
 
-\- FileSaver.js (for image downloads)
+   ```bash
+   npm install
+   ```
 
-\- Tailwind CSS (for styling)
+4. Start the development server:
 
-\## Installation
+   ```bash
+   npm start
+   ```
 
-1\. Clone the repository:
+5. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-\`\`\`bash
+## Usage
 
-git clone https://github.com/your-username/data-visualization-dashboard.git
+1. Click **"Choose CSV File"** to upload your dataset
+2. Select which columns to use for **X and Y axes** from the dropdown menus
+3. Toggle between **Bar and Scatter** chart types
+4. Click **"Export as PNG"** to download your visualization
 
-\`\`\`
+## Project Structure
 
-2\. Navigate to the project directory:
-
-\`\`\`bash
-
-cd data-visualization-dashboard
-
-\`\`\`
-
-3\. Install dependencies:
-
-\`\`\`bash
-
-npm install
-
-\`\`\`
-
-4\. Start the development server:
-
-\`\`\`bash
-
-npm start
-
-\`\`\`
-
-5\. Open \[http://localhost:3000\](http://localhost:3000) to view it in your browser.
-
-\## Usage
-
-1\. Click "Choose CSV File" to upload your dataset
-
-2\. Select which columns to use for X and Y axes from the dropdown menus
-
-3\. Toggle between Bar and Scatter chart types
-
-4\. Click "Export as PNG" to download your visualization
-
-\## Project Structure
-
-\`\`\`
-
+```
 src/
+├── App.js          # Main application component
+├── index.js        # React entry point
+├── components/     # Reusable components
+├── assets/         # Static assets
+└── styles/         # CSS files
+```
 
-├── App.js # Main application component
+## Screenshots
 
-├── index.js # React entry point
+![Image 1](../assets/img1.png)
+![Image 2](./assets/img2.png)
+![Image 3](./assets/img3.png)
+![Image 4](./assets/img4.png)
 
-├── components/ # Reusable components
+## Demo Video
 
-├── assets/ # Static assets
+🎥 [▶ Watch Demo Video](./assets/DEMO.mp4)
 
-└── styles/ # CSS files
-
-\`\`\`
-
-\## Contributing
+## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements.
 
-\## License
+## License
 
-This project is licensed under the MIT License - see the \[LICENSE\](LICENSE) file for details.
-
-\## Screenshots
-
-!\[App Screenshot\](./screenshot.png)
-
-\## Live Demo
-
-\[View Live Demo\](https://your-deployed-app-url.here)
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
