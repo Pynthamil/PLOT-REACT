@@ -73,7 +73,7 @@ src/
 
 ## Demo Video
 
-🎥 [▶ Watch Demo Video](https://github.com/Pynthamil/PLOT-REACT/blob/1e10aaa63c9e82ce7b0df40fb89b993deaf84b8c/public/assets/DEMO.mp4)
+🎥 [▶ Watch Demo Video](https://drive.google.com/file/d/1lBJ5XA5iDGRLSUMs46IUTiT0tGRuSObA/view?usp=drive_link)
 
 ## Contributing
 
